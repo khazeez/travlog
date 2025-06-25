@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Style Tailwind -->
-    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="src/output.css">
 
     <!-- Alphine JS -->
     <script src="//unpkg.com/alpinejs" defer></script>
@@ -15,8 +15,8 @@
     <nav class="py-9 px-8 lg:px-15" x-data="{navOpen: false}">
         <div class="container mx-auto">
             <div class="flex justify-between items-center">
-                <img src="../public/img/logo.svg" alt="logo" class="order-1 sm:order-2">
-                <img @click="navOpen = ! navOpen" class="w-8 order-2 lg:hidden sm:order-1" src="../public/img/togle.svg" alt="togle" >
+                <img src="/img/logo.svg" alt="logo" class="order-1 sm:order-2">
+                <img @click="navOpen = ! navOpen" class="w-8 order-2 lg:hidden sm:order-1" src="/img/togle.svg" alt="togle" >
 
                 <div class="order-2 hidden lg:block">
                     <ul class="flex gap-8 items-center">
@@ -38,32 +38,32 @@
             <ul class="flex justify-between items-center gap-1">
                 <li>
                     <button class="flex flex-col justify-center items-center ">
-                        <img class="w-5 text-violet" src="../public/img/home.svg" alt="home">
+                        <img class="w-5 text-violet" src="/img/home.svg" alt="home">
                         <span class="text-based font-normal text-sm text-violet"> Home</span>
                     </button>
                     
                 </li>
                 <li>
                     <button class="flex flex-col justify-center items-center">
-                        <img class="w-5" src="../public/img/compass.png" alt="Discover" srcset="">
+                        <img class="w-5" src="/img/compass.png" alt="Discover" srcset="">
                         <span class="text-based font-normal text-sm text-grey opacity-50">Discover</span>
                     </button>
                 </li>
                 <li>
                     <button class="flex flex-col justify-center items-center ">
-                        <img class="w-5" src="../public/img/deal.png" alt="" srcset="">
+                        <img class="w-5" src="/img/deal.png" alt="" srcset="">
                         <span class="text-based font-normal text-sm text-grey opacity-50">Special Deals</span>
                     </button>
                 </li>
                 <li >
                     <button class=" flex flex-col justify-center items-center ">
-                        <img class="w-5" src="../public/img/support.png" alt="support">
+                        <img class="w-5" src="/img/support.png" alt="support">
                         <span class="text-based font-normal text-sm  text-grey opacity-50">Support</span>
                     </button>
                 </li>
                 <li>
                     <button class=" flex flex-col justify-center items-center "  @click="open = ! open">
-                        <img class="w-5" src="../public/img/more.png" alt="support">
+                        <img class="w-5" src="/img/more.png" alt="support">
                         <span class="text-based font-normal text-sm text-grey opacity-50">More</span>
                     </button>
                 </li>
@@ -85,7 +85,7 @@
                         <div class="">
                             <button class="px-8 py-4 bg-white text-merahmuda flex gap-2 text-sm font-bold shadow-(--shadow-me) rounded-full mx-auto lg:mx-0 mb-10 lg:mt-0 mt-10">
                                 Explore the World!
-                                <img src="../public/img/bag.svg" alt="" srcset="">
+                                <img src="/img/bag.svg" alt="" srcset="">
                             </button>
                             <h1 class="font-bold text-[40px] md:text-[60px] text-grey leading-tight mt-4 mb-10">
                                 Travel <span class="text-merahmuda"> top destination </span> of the world
@@ -94,14 +94,14 @@
                             <div class="flex flex-col gap-6 md:flex-row justify-center lg:justify-start">
                                 <button class="py-6 px-8 shadow-(--shadow-me2) bg-violet rounded-full text-white text-sm font-bold">Get Started</button>
                                 <button class="flex gap-2  justify-center items-center py-6 px-8 shadow-(--shadow-me2) bg-white rounded-full border-[#EEEEEE] text-sm font-bold">
-                                    <img src="../public/img/play-button.svg" alt="">
+                                    <img src="/img/play-button.svg" alt="">
                                     Watch Demo
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div class="col-span-12 lg:col-span-8 lg:order-2 order-1">
-                        <img src="../public/img/ilustrationUp.svg" alt="" srcset="" class="w-full">
+                        <img src="/img/ilustrationUp.svg" alt="" srcset="" class="w-full">
                     </div>
 
                 </div>
@@ -111,10 +111,10 @@
     <!-- Section Sponsore -->
     <section>
         <div class="grid grid-cols-4 mx-auto justify-items-center p-10 lg:px-15">
-            <img src="../public/img/sponsor-1.svg" alt="" srcset="" class="col-span-4 md:col-span-2 lg:col-span-1 p-4">
-            <img src="../public/img/sponsor-2.svg" alt="" class="col-span-4 md:col-span-2 lg:col-span-1 p-4">
-            <img src="../public/img/sponsore-3.svg" alt="" class="col-span-4 md:col-span-2 lg:col-span-1 p-4">
-            <img src="../public/img/sponsore-4.svg" alt="" srcset="" class="col-span-4 md:col-span-2 lg:col-span-1 p-4">
+            <img src="/img/sponsor-1.svg" alt="" srcset="" class="col-span-4 md:col-span-2 lg:col-span-1 p-4">
+            <img src="/img/sponsor-2.svg" alt="" class="col-span-4 md:col-span-2 lg:col-span-1 p-4">
+            <img src="/img/sponsore-3.svg" alt="" class="col-span-4 md:col-span-2 lg:col-span-1 p-4">
+            <img src="/img/sponsore-4.svg" alt="" srcset="" class="col-span-4 md:col-span-2 lg:col-span-1 p-4">
         </div>
     </section>
 
@@ -126,17 +126,17 @@
                 <h1 class=" text-[30px] lg:text-[50px]">Our top value catagories for you</h1>
             </div>
             <div class="flex flex-col justify-center items-center text-center px-5 py-20 border-1 border-gray-300 mx-2 my-5 gap-10 col-span-4 lg:col-span-1 md:col-span-2 rounded-xl hover:shadow-xl transform hover:scale-105 transition duration-300">
-                    <img src="../public/img/destination 1.svg" alt="">
+                    <img src="/img/destination 1.svg" alt="">
                     <h2 class="font-bold">Best Tour Guide</h2>
                     <p class="text-sm opacity-50">What looked like like a small patch of purple grass, above five feet.</p>
             </div>
             <div class="flex flex-col justify-center items-center text-center px-5 py-20 border-1 border-gray-300 mx-2 my-5 gap-10 col-span-4 lg:col-span-1 md:col-span-2 rounded-xl hover:shadow-xl transform hover:scale-105 transition duration-300">
-                <img src="../public/img/booking 1.svg" alt="">
+                <img src="/img/booking 1.svg" alt="">
                 <h2 class="font-bold">Easy Booking</h2>
                 <p class="text-sm opacity-50">Squere, was moving across the sand in their direction</p>
             </div>
             <div class="flex flex-col justify-center items-center text-center px-5 py-20 border-1 border-gray-300 mx-2 my-5 gap-10 col-span-4 lg:col-span-1 md:col-span-2 rounded-xl hover:shadow-xl transform hover:scale-105 transition duration-300">
-                <img src="../public/img/cloudy 1.svg" alt="" srcset="">
+                <img src="/img/cloudy 1.svg" alt="" srcset="">
                 <h2 class="font-bold">Weather Forecast</h2>
                 <p class="text-sm opacity-50">What looked a small patch of purple grass, above five feet.</p>
             </div>
@@ -152,16 +152,16 @@
             </div>
             <div class="flex gap-1">
                 <button class="p-4 rounded-full border">
-                    <img src="../public/img/arrow-left.svg" alt="">
+                    <img src="/img/arrow-left.svg" alt="">
                 </button>
                 <button class="px-5 py-6 rounded-full bg-violet">
-                    <img src="../public/img/arrow-right.svg" alt="">
+                    <img src="/img/arrow-right.svg" alt="">
                 </button>
             </div>
         </div>
         <div class="grid grid-cols-3 p-4 gap-6 lg:px-15">
             <div class="col-span-3 lg:col-span-1">
-                <img src="../public/img/wisata 1.svg" alt="">
+                <img src="/img/wisata 1.svg" alt="">
 
                 <div class=" p-7 shadow-(--shadow-me) rounded-2xl space-y-3">
                     <div class="flex justify-between">
@@ -171,12 +171,12 @@
                 <p class="opacity-50">Rome, Italy</p>
                 <span class="rating inline-flex gap-1">
                     <p class="font-bold text-orange text-xl">4.8</p>
-                    <img src="../public/img/star.svg" alt="">
+                    <img src="/img/star.svg" alt="">
                 </span>
                 </div>   
             </div>
             <div class="col-span-3 lg:col-span-1">
-                <img src="../public/img/wisata 2.svg" alt="">
+                <img src="/img/wisata 2.svg" alt="">
 
                 <div class=" p-7 shadow-(--shadow-me) rounded-2xl space-y-3">
                     <div class="flex justify-between">
@@ -186,13 +186,13 @@
                 <p class="opacity-50">Maldives</p>
                 <span class="rating inline-flex gap-1">
                     <p class="font-bold text-orange text-xl">4.8</p>
-                    <img src="../public/img/star.svg" alt="">
+                    <img src="/img/star.svg" alt="">
                 </span>
                 </div>
                 
             </div>
             <div class="col-span-3 lg:col-span-1">
-                <img src="../public/img/wisata 3.svg" alt="">
+                <img src="/img/wisata 3.svg" alt="">
 
                 <div class=" p-7 shadow-(--shadow-me) rounded-2xl space-y-3">
                     <div class="flex justify-between">
@@ -202,7 +202,7 @@
                 <p class="opacity-50">United Arab Emirates</p>
                 <span class="rating inline-flex gap-1">
                     <p class="font-bold text-orange text-xl">4.8</p>
-                    <img src="../public/img/star.svg" alt="">
+                    <img src="/img/star.svg" alt="">
                 </span>
                 </div>
                 
@@ -215,7 +215,7 @@
       <section>
         <div class="grid grid-cols-2 mx-auto my-20 ">
             <div class="col-span-2 lg:col-span-1 order-2 lg:order-1">
-                <img src="../public/img/mba2.svg" alt="" class="ml-0">
+                <img src="/img/mba2.svg" alt="" class="ml-0">
             </div>
             <div class="col-span-2 lg:col-span-1 order-1 lg:order-2 mx-5 lg:mx-2">
                 <div class="">
@@ -269,12 +269,12 @@
        <footer>
         <div class="grid grid-cols-5 lg:px-45 px-10 justify-between mx-auto gap-10 my-5">
             <div class="lg:col-span-2 col-span-5 space-y-3">
-                <img src="../public/img/logo.svg" alt="logo" class="">
+                <img src="/img/logo.svg" alt="logo" class="">
                 <p class="font-bold opacity-50">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
                 <div class="flex gap-10">
-                    <img src="../public/img/fb.svg" alt="">
-                    <img src="../public/img/x.png" alt="">
-                    <img src="../public/img/ig.svg" alt="">
+                    <img src="/img/fb.svg" alt="">
+                    <img src="/img/x.png" alt="">
+                    <img src="/img/ig.svg" alt="">
                 </div>
             </div>
             <div class="lg:col-span-1 col-span-5 gap-5 space-y-3">
